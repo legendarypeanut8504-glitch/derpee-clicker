@@ -1,0 +1,195 @@
+body {
+    background-color: #c0e9c4;
+    font-family: Arial;
+    color: #000000;
+    text-align: left;
+    margin: 0;
+}
+
+/* title margin */
+
+h1 {
+    margin-left: 50px;
+    font-size: 48px;
+}
+
+/* apple mesh dimensions and transform time */
+
+#apple {
+    width: 256px;
+    cursor: pointer;
+    transition: transform 0.05s;
+}
+
+/* apple mesh hover transform */
+
+#apple:hover {
+    transform: scale(1.02);
+}
+
+/* apple mesh margin */
+
+#apple {
+    margin-left: 50px;
+}
+
+/* apples counter margin */
+
+#apples {
+    margin-left: 50px;
+}
+
+/* apple mesh click transform */
+
+#apple:active {
+    transform: scale(0.98);
+}
+
+/* division line script */
+
+#divider {
+    position: fixed;
+    left: 50%;
+    top: 0;
+    width: 10px;
+    height: 100vh;
+    background-color: #96f09d;
+}
+
+/* apple tree building properties ig */
+
+#appleTree {
+    height: 100px;
+    font-size: 18px;
+    margin-right: 0px;
+    background-color: #a2f39d;
+    border-radius: 12px;
+    width: min(800px, 40vw)
+}
+
+#appleTree:hover {
+    background-color: #80e47b;
+    transform: scale(1.01);
+}
+
+#appleTree:active {
+    transform: scale(0.99);
+}
+
+#appleTree {
+    position: fixed;
+    right: 50px;
+    top: 50px;
+}
+
+#appleTree {
+    display: flex;
+    align-items: center;
+}
+
+#appleTreeImage {
+    width: 64px;
+    height: 64px;
+    margin-left: 5px;
+}
+
+#appleTree {
+    margin-left: 15px;
+    text-align: left;
+}
+
+/* juicer properties ig */
+
+#juicer {
+    height: 100px;
+    font-size: 18px;
+    margin-right: 0px;
+    background-color: #a2f39d;
+    border-radius: 12px;
+    width: min(800px, 40vw)
+}
+
+#juicer:hover {
+    background-color: #80e47b;
+    transform: scale(1.01);
+}
+
+#juicer:active {
+    transform: scale(0.99);
+}
+
+#juicer {
+    position: fixed;
+    right: 50px;
+    top: 150px;
+}
+
+#juicer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: left;
+}
+
+#juicerImage {
+    width: 64px;
+    height: 64px;
+    margin-left: 15px;
+}
+
+#juicerText {
+    margin-left: 0px;
+    text-align: left;
+}
+
+/* orchard properties ig */
+
+#orchard {
+    height: 100px;
+    font-size: 18px;
+    margin-right: 0px;
+    background-color: #a2f39d;
+    border-radius: 12px;
+    width: min(800px, 40vw)
+}
+
+#orchard {
+    position: fixed;
+    right: 50px;
+    top: 250px;
+
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+#orchardImage {
+    width: 64px;
+    height: 64px;
+    margin-left: 15px;
+}
+
+#orchardText {
+    margin-left: 15px;
+    text-align: left;
+}
+
+#orchard:hover {
+    background-color: #80e47b;
+    transform: scale(1.01);
+}
+
+#orchard:active {
+    transform: scale(0.99);
+}
+
+#orchardImage {
+    width: 64px;
+    height: 64px;
+    margin-left: 15px;
+}
+
+#orchardText {
+    margin-left: 15px;
+    text-align: left;
+}
